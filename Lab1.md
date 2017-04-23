@@ -5,6 +5,7 @@ t1 <-"hello world"
 t2 <- 8.5
 t3 <- 5L
 t4 <- TRUE
+t5 <- 1+1i
 ```
 
 2. Створити вектори, які: містить послідовність з 5 до 75; містить числа 3.14, 2.71, 0, 13; 100 значень TRUE.
@@ -65,7 +66,7 @@ l <-list(1.1,1L,"hello",TRUE)
 5. Створити фактор з трьома рівнями «baby», «child», «adult».
 
 ```r
-x<-c("baby", "child", "adult")
+x<-c("baby", "baby", "baby", "child", "child", "adult")
 factor(x)
 
 [1] baby  child adult
